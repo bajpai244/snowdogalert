@@ -4,7 +4,8 @@
   "description": "Alerts for Snowdog prices, everytime their price increases by 5 seconds # snowdogalert",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",

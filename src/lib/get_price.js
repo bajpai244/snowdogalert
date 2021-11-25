@@ -9,7 +9,6 @@ const config = {
 const get_data = async () => {
   return await axios(config)
     .then((response) => {
-      console.log(JSON.stringify(response.data));
       return response.data.snowdog.usd;
     })
     .catch((error) => {
@@ -17,5 +16,4 @@ const get_data = async () => {
       return false;
     });
 };
-
 module.exports = get_data;
