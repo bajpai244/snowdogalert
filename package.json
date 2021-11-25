@@ -1,0 +1,24 @@
+{
+  "name": "snowdogalert",
+  "version": "1.0.0",
+  "description": "Alerts for Snowdog prices, everytime their price increases by 5 seconds # snowdogalert",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bajpai244/snowdogalert.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bajpai244/snowdogalert/issues"
+  },
+  "homepage": "https://github.com/bajpai244/snowdogalert#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.1"
+  }
+}
